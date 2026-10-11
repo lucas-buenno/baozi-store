@@ -1,0 +1,8 @@
+services:
+  mysql:
+    image: mysql:latest
+    environment:
+      - MYSQL_DATABASE=baozidb
+      - MYSQL_ROOT_PASSWORD=1234
+    ports:
+      - 3306:3306
